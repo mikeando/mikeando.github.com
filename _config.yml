@@ -1,3 +1,9 @@
+title: Mike Anderson
+description: Software Developer / Mathematician
+show_downloads: false
 permalink: /:title
 auto: true
 pygments: true
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme
