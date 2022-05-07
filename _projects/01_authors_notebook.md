@@ -18,7 +18,7 @@ The project is run on a few key ideals:
 
 The components currently under development are
 
-## twirl <img src="icons/rust.svg" class=icon>
+### twirl <img src="icons/rust.svg" class=icon>
 **STATUS** Under development - not yet publicly released.
 
 Twirl is a markdown library for rust designed to support lossless conversion and
@@ -32,12 +32,12 @@ above, but we wont sacrifice the primary aims to obtain these.
 It's primary use in AuthorsNotebook is to allow the use of markdown as the
 data storage format. 
 
-## [markovian](https://github.com/mikeando/markovian) <img src="icons/rust.svg" class=icon>
+### [markovian](https://github.com/mikeando/markovian) <img src="icons/rust.svg" class=icon>
 **STATUS** WIP - but currently usable and public.
 
 Rust library and application for text generation using Markov chains and grammars.
 
-## [inscenerator] <img src="icons/rust.svg" class=icon>
+### inscenerator <img src="icons/rust.svg" class=icon>
 **STATUS** Under development - not yet public
 
 The main application and AuthorsNotebook libraries.
