@@ -8,6 +8,19 @@
 
 {% seo %}
     {% include head-custom.html %}
+
+    <style>
+      img .icon {
+        height: 1em;
+        width: auto;
+        border: unset;
+        box-shadow: unset;
+        -webkit-box-shadow: unset;
+        -moz-box-shadow: unset;
+        -o-box-shadow: unset;
+        -ms-box-shadow: unset;
+      }
+    </style>
   </head>
 
   <body>
@@ -18,8 +31,8 @@
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           <div>
-            <a href="https://github.com/mikeando"><img src="icons/github.svg" style="height:1em;width:auto;"></a>
-            <a href="https://stackoverflow.com/users/221955/michael-anderson"><img src="icons/stackoverflow.svg" style="height:1em;width:auto;"></a>
+            <a href="https://github.com/mikeando"><img src="icons/github.svg" class="icon"></a>
+            <a href="https://stackoverflow.com/users/221955/michael-anderson"><img src="icons/stackoverflow.svg" class="icon"></a>
           </div>
         </header>
     </div>
