@@ -10,6 +10,9 @@ title: Welcome
 {% endfor %}
 
 # Projects
+
 {% for project in site.projects %}
 ## {{project.title}}
 {{ project.content }}
+
+{% endfor %}
