@@ -10,3 +10,4 @@ plugins:
 collections:
 - sections
 - projects
+- work
