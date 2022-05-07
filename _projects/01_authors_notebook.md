@@ -1,5 +1,6 @@
 ---
 title: AuthorsNotebook
+icon: icons/ANB_AppIcon_120.png
 ---
 
 AuthorsNotebook is a suite of applications focused on helping authors create

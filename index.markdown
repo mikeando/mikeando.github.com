@@ -9,10 +9,16 @@ title: Welcome
 
 {% endfor %}
 
-# Projects
+# Work Projects
+
+# Personal Projects
 
 {% for project in site.projects %}
-## {{project.title}}
+{% if project.icon != nil %}
+## <img src="{{project.icon}}" class="icon"> {{project.title}}
+{% else %}
+## <img src="{{project.icon}}" class="icon"> {{project.title}}
+{% endif %}
 {{ project.content }}
 
 {% endfor %}
