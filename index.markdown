@@ -17,6 +17,8 @@ title: Welcome
 ## <img src="{{project.icon}}" class="icon"> {{project.title}}
 {% endif %}
 {{ project.content }}
+{% endfor %}
+
 # Personal Projects
 
 {% for project in site.projects %}
